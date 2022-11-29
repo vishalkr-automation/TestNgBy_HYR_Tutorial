@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="package14.ITestListnerClass"></listener>
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class
+				name="package14.Video_26_CaptureScreenshotsOnlyForFailedTestCaseInTestNg">
+				<methods>
+					<include name="f1"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class
+				name="package14.Video_26_CaptureScreenshotsOnlyForFailedTestCaseInTestNg">
+				<methods>
+					<include name="f2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
